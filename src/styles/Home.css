@@ -1,0 +1,21 @@
+.coinsList{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.coinsListElement{
+    border: 1px solid black;
+    width: 220px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: white;
+}
+
+.coinsListElement:hover {
+    transform: translateY(-5px); 
+}

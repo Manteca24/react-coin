@@ -1,0 +1,29 @@
+.coinCard{
+    border: 1px solid black;
+    width: 500px;
+    margin: 5px;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    margin: 20px;
+}
+
+.coinCard p {
+    margin: 5px;
+}
+
+.coinCard button {
+    background-color: rgb(115, 20, 20);
+    color: white;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.coinCard button:hover {
+    background-color: yellow;
+    color: black;
+}
+
